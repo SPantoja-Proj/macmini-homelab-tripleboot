@@ -13,6 +13,16 @@ This repository is a simple tutorial to help you and document my Homelab build a
 - `Sata to USB Cable` — Sata to USB cable/enclouse to be able to use the external HHD
 - `Extras` — Mouse,Keyboard,HDMI,Extra Computer
 
+## Programs I used
+
+- `Mac Mini Late 2014` — The primary machine running the HomeLab environment.
+- `Window 10 Boot USB` — A bootable USB drive for installing Windows 10
+
+## Websites I used
+
+- `Mac Mini Late 2014` — The primary machine running the HomeLab environment.
+- `Window 10 Boot USB` — A bootable USB drive for installing Windows 10
+
 ## How to run the project
 
 1. Make sure you have Python installed.
