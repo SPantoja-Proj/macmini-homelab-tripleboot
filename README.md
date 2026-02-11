@@ -20,11 +20,13 @@ This repository is a simple tutorial to help you and document my Homelab build a
 
 ## Websites I used
 
-- `Mac Mini Late 2014` — The primary machine running the HomeLab environment.
-- `Window 10 Boot USB` — A bootable USB drive for installing Windows 10
+- `Window 10 ISO` — [The primary machine running the HomeLab environment.](https://www.microsoft.com/en-us/software-download/windows10?msockid=048a50d796596c76364c463797ea6d5f)
+- `Ubuntu ISO` — A bootable USB drive for installing Windows 10
 
-## How to run the project
+## Instructions
 
-1. Make sure you have Python installed.
-2. Open a terminal in this folder.
-3. Run:
+Table of content:
+
+1. Mac OS update and preperation.
+2. Window 10 Boot USB preperation.
+3. Mac Window 10 Partition installation
