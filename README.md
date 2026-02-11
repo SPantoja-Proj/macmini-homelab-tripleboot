@@ -13,17 +13,17 @@ This repository is a simple tutorial to help you and document my Homelab build a
 - `Sata to USB Cable` — Sata to USB cable/enclouse to be able to use the external HHD
 - `Extras` — Mouse,Keyboard,HDMI,Extra Computer
 
-## Programs I used
+## Programs
 
 - `Balena Etcher` — We use this to create a OS Boor USB/ Burn ISO into a USB. (https://etcher.balena.io/)
 
 
-## Websites I used
+## Websites
 
 - `Window 10 ISO` — (https://www.microsoft.com/en-us/software-download/windows10?msockid=048a50d796596c76364c463797ea6d5f)
 - `Ubuntu ISO` — (https://ubuntu.com/download/desktop)
 
-## Instructions
+## Table of Contents
 
 Table of Contents
 
@@ -36,3 +36,25 @@ Table of Contents
 4. Prepare External Hard Drive
 
 5. Ubuntu Boot USB Preparation
+
+6. Ubuntu Installation
+
+
+## Setup
+
+## macOS Update and Preparation
+
+I will first check what operating system the Mac Mini is currently running.
+
+Check if the current OS is the latest operating system that it can run.
+
+
+## Windows 10 Boot USB Preparation
+
+## macOS Windows 10 Partition Installation
+
+## Prepare External Hard Drive
+
+## Ubuntu Boot USB Preparation
+
+## Installation of Ubuntu
