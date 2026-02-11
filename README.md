@@ -25,10 +25,14 @@ This repository is a simple tutorial to help you and document my Homelab build a
 
 ## Instructions
 
-Table of content:
+Table of Contents
 
-1. Mac OS update and preperation.
-2. Window 10 Boot USB preperation.
-3. Mac Window 10 Partition installation
+1. macOS Update and Preparation
+
+2. Windows 10 Boot USB Preparation
+
+3. macOS Windows 10 Partition Installation
+
 4. Prepare External Hard Drive
-5. Ubuntu Boot USB preperation.
+
+5. Ubuntu Boot USB Preparation
