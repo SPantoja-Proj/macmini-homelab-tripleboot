@@ -52,7 +52,9 @@ Table of Contents
 
 `Warning` I do not recommend attempting to install a macOS version that is not officially supported on the Mac Mini.
 
-## Windows 10 Boot USB Preparation
+## Windows 10 Boot USB Preparation (Using balenaEtcher)
+
+This section explains how to create a bootable Windows 10 USB installer using balenaEtcher, a simple and cross‑platform flashing tool. The resulting USB can be used to install or repair Windows 10 on compatible hardware.
 
 `Requirements` 
 
@@ -107,7 +109,9 @@ Always download Windows ISOs directly from Microsoft.
 
 Etcher is ideal for simple, cross‑platform flashing, but advanced partitioning options (GPT/MBR selection) are not available.
 
-## macOS Windows 10 Partition Installation
+## macOS Monterey — Windows 10 Partition Installation (Using Windows 10 Boot USB)
+
+This guide explains how to install Windows 10 on a separate partition of a macOS Monterey system (such as a 2014 Mac mini) using a bootable Windows 10 USB created with balenaEtcher. This method works even when Boot Camp Assistant no longer supports Windows installation on older Macs.
 
 ## Prepare External Hard Drive
 
