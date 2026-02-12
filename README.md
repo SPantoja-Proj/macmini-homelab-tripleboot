@@ -66,6 +66,10 @@ A stable internet connection
 
 A valid Windows 10 license (for activation after installation)
 
+balenaEtcher installed: (https://etcher.balena.io)
+
+Windows 10 ISO : (https://www.microsoft.com/en-us/software-download/windows10?msockid=048a50d796596c76364c463797ea6d5f)
+
 Step 1 — Download the Windows 10 ISO
 
 From Microsoft (Recommended)
