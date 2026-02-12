@@ -113,6 +113,22 @@ Etcher is ideal for simple, cross‑platform flashing, but advanced partitioning
 
 This guide explains how to install Windows 10 on a separate partition of a macOS Monterey system (such as a 2014 Mac mini) using a bootable Windows 10 USB created with balenaEtcher. This method works even when Boot Camp Assistant no longer supports Windows installation on older Macs.
 
+`Requirements`
+
+macOS Monterey system (tested on Mac mini 2014)
+
+Windows 10 ISO
+
+Bootable Windows 10 USB (created with Etcher)
+
+At least 40 GB of free disk space
+
+USB keyboard/mouse recommended
+
+Internet connection for Windows drivers later
+
+
+
 ## Prepare External Hard Drive
 
 ## Ubuntu Boot USB Preparation
