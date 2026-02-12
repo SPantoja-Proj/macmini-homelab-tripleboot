@@ -109,25 +109,60 @@ Always download Windows ISOs directly from Microsoft.
 
 Etcher is ideal for simple, cross‑platform flashing, but advanced partitioning options (GPT/MBR selection) are not available.
 
-## macOS Monterey — Windows 10 Partition Installation (Using Windows 10 Boot USB)
+## macOS Monterey — Windows 10 Installation Using Boot Camp Assistant (With Windows 10 Boot USB)
 
-This guide explains how to install Windows 10 on a separate partition of a macOS Monterey system (such as a 2014 Mac mini) using a bootable Windows 10 USB created with balenaEtcher. This method works even when Boot Camp Assistant no longer supports Windows installation on older Macs.
+This guide explains how to install Windows 10 on a macOS Monterey system using Boot Camp Assistant together with a Windows 10 bootable USB. This method is designed for older Macs—such as the Mac mini (Late 2014)—where Boot Camp Assistant may not automatically create a USB installer but still supports partitioning and installation.
 
 `Requirements`
 
-macOS Monterey system (tested on Mac mini 2014)
+macOS Monterey
 
-Windows 10 ISO
+A Mac that supports Windows 10 installation (tested on Mac mini 2014)
 
-Bootable Windows 10 USB (created with Etcher)
+Windows 10 ISO file
+
+Bootable Windows 10 USB (created with balenaEtcher)
 
 At least 40 GB of free disk space
 
 USB keyboard/mouse recommended
 
-Internet connection for Windows drivers later
+Internet connection for driver installation
 
+Step 1 — Open Boot Camp Assistant
 
+1. On macOS, open:
+Applications → Utilities → Boot Camp Assistant
+
+2. Boot Camp Assistant may not show the option to create a USB installer on Monterey, but it still supports partitioning.
+
+3. Click Continue.
+
+Step 2 - Create the Windows Partition
+
+1. In Boot Camp Assistant, adjust the partition slider.
+
+2. Allocate 40–100 GB for Windows (your choice).
+
+3. Click Install.
+
+4. Boot Camp Assistant will:
+
+Resize the macOS partition
+
+Create a BOOTCAMP partition
+
+Restart the Mac
+
+`Note` Boot Camp Assistant will reboot, but it may not automatically detect the USB installer. That’s expected on older Macs.
+
+Step 3 - Boot From the Windows 10 USB
+
+1. When the Mac restarts, immediately hold Option (⌥) Alt for regular keyboard.
+
+2. Select EFI Boot (your Windows USB).
+
+3. The Windows installer will load.
 
 ## Prepare External Hard Drive
 
