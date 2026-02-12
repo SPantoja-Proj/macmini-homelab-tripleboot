@@ -142,7 +142,7 @@ Step 2 - Create the Windows Partition
 
 1. In Boot Camp Assistant, adjust the partition slider.
 
-2. Allocate 40–100 GB for Windows (your choice).
+2. Allocate amount GB for Windows (your choice).
 
 3. Click Install.
 
@@ -170,7 +170,7 @@ Step 4 - Install Windows 10
 
 2. Enter your product key or skip for later activation.
 
-3.Select Windows 10 Home or Pro.
+3.Select Windows 10 Home or Pro.(doesn't show sometimes)
 
 4. When asked where to install Windows:
 
