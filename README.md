@@ -81,7 +81,29 @@ From Microsoft (Recommended)
 
 3. Wait until it finish downloading.
 
+Step 2 — Create the Bootable USB with Etcher
 
+balenaEtcher works the same across Windows, macOS, and Linux.
+
+1.  Visit the official balenaEtcher download page:  (https://etcher.balena.io)
+
+2. Install and open balenaEtcher. 
+
+3. Click Flash from file and select the Windows 10 ISO.
+
+4. Click Select target and choose your USB drive.
+
+5. Click Flash!
+
+6. Wait for Etcher to finish writing and validating the USB.
+
+`Note` Etcher writes the ISO in a raw‑image format. Most systems will boot it normally, but some older BIOS‑only machines may require an MBR‑formatted USB created with other tools.
+
+Flashing the USB will erase all data on it.
+
+Always download Windows ISOs directly from Microsoft.
+
+Etcher is ideal for simple, cross‑platform flashing, but advanced partitioning options (GPT/MBR selection) are not available.
 
 ## macOS Windows 10 Partition Installation
 
