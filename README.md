@@ -60,17 +60,17 @@ This section explains how to create a bootable Windows 10 USB installer using ba
 
 Before you begin, make sure you have:
 
-A USB flash drive (8 GB or larger)
+-A USB flash drive (8 GB or larger)
 
-A working Windows, macOS, or Linux system
+-A working Windows, macOS, or Linux system
 
-A stable internet connection
+-A stable internet connection
 
-A valid Windows 10 license (for activation after installation)
+-A valid Windows 10 license (for activation after installation)
 
-balenaEtcher installed: (https://etcher.balena.io)
+-balenaEtcher installed: (https://etcher.balena.io)
 
-Windows 10 ISO : (https://www.microsoft.com/en-us/software-download/windows10?msockid=048a50d796596c76364c463797ea6d5f)
+-Windows 10 ISO : (https://www.microsoft.com/en-us/software-download/windows10?msockid=048a50d796596c76364c463797ea6d5f)
 
 Step 1 — Download the Windows 10 ISO
 
@@ -101,13 +101,13 @@ balenaEtcher works the same across Windows, macOS, and Linux.
 
 `Notes` 
 
-Etcher writes the ISO in a raw‑image format. Most systems will boot it normally, but some older BIOS‑only machines may require an MBR‑formatted USB created with other tools.
+-Etcher writes the ISO in a raw‑image format. Most systems will boot it normally, but some older BIOS‑only machines may require an MBR‑formatted USB created with other tools.
 
-Flashing the USB will erase all data on it.
+-Flashing the USB will erase all data on it.
 
-Always download Windows ISOs directly from Microsoft.
+-Always download Windows ISOs directly from Microsoft.
 
-Etcher is ideal for simple, cross‑platform flashing, but advanced partitioning options (GPT/MBR selection) are not available.
+-Etcher is ideal for simple, cross‑platform flashing, but advanced partitioning options (GPT/MBR selection) are not available.
 
 ## macOS Monterey — Windows 10 Installation Using Boot Camp Assistant (With Windows 10 Boot USB)
 
@@ -115,19 +115,19 @@ This guide explains how to install Windows 10 on a macOS Monterey system using B
 
 `Requirements`
 
-macOS Monterey
+-macOS Monterey
 
-A Mac that supports Windows 10 installation (tested on Mac mini 2014)
+-A Mac that supports Windows 10 installation (tested on Mac mini 2014)
 
-Windows 10 ISO file
+-Windows 10 ISO file
 
-Bootable Windows 10 USB (created with balenaEtcher)
+-Bootable Windows 10 USB (created with balenaEtcher)
 
-At least 40 GB of free disk space
+-At least 40 GB of free disk space
 
-USB keyboard/mouse recommended
+-USB keyboard/mouse recommended
 
-Internet connection for driver installation
+-Internet connection for driver installation
 
 Step 1 — Open Boot Camp Assistant
 
@@ -148,11 +148,11 @@ Step 2 - Create the Windows Partition
 
 4. Boot Camp Assistant will:
 
-Resize the macOS partition
+-Resize the macOS partition
 
-Create a BOOTCAMP partition
+-Create a BOOTCAMP partition
 
-Restart the Mac
+-Restart the Mac
 
 `Note` Boot Camp Assistant will reboot, but it may not automatically detect the USB installer. That’s expected on older Macs.
 
