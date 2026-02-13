@@ -48,7 +48,7 @@ Table of Contents
 
 ## Setup
 
-## macOS Update and Preparation
+## 🖥️ macOS Update and Preparation
 
 -Begin by checking which version of macOS the Mac Mini is currently running.
 
@@ -58,7 +58,7 @@ Table of Contents
 
 `Warning` I do not recommend attempting to install a macOS version that is not officially supported on the Mac Mini.
 
-## Windows 10 Boot USB Preparation (Using balenaEtcher)
+## 🪟 Windows 10 Boot USB Preparation (Using balenaEtcher)
 
 This section explains how to create a bootable Windows 10 USB installer using balenaEtcher, a simple and cross‑platform flashing tool. The resulting USB can be used to install or repair Windows 10 on compatible hardware.
 
@@ -113,7 +113,7 @@ balenaEtcher works the same across Windows, macOS, and Linux.
 
 -Etcher is ideal for simple, cross‑platform flashing, but advanced partitioning options (GPT/MBR selection) are not available.
 
-## macOS Monterey — Windows 10 Installation Using Boot Camp Assistant (With Windows 10 Boot USB)
+## 🖥️ macOS Monterey — Windows 10 Installation Using Boot Camp Assistant (With Windows 10 Boot USB)
 
 This guide explains how to install Windows 10 on a macOS Monterey system using Boot Camp Assistant together with a Windows 10 bootable USB. This method is designed for older Macs—such as the Mac mini (Late 2014)—where Boot Camp Assistant may not automatically create a USB installer but still supports partitioning and installation.
 
@@ -207,7 +207,7 @@ Continue setup until you reach the Windows desktop.
 
 -Always back up macOS before modifying partitions.
 
-## Prepare External Hard Drive
+## 💾 Prepare External Hard Drive
 
 You will be doing three main things:
 
@@ -335,7 +335,7 @@ Steps (Disk Utility)
 
 7. Click Erase.
 
-## Ubuntu Boot USB Preparation (Using balenaEtcher)
+## 💽 Ubuntu Boot USB Preparation (Using balenaEtcher)
 
 This section explains how to create a bootable Ubuntu USB installer using balenaEtcher, a simple and cross‑platform flashing tool. The resulting USB can be used to install or repair Ubuntu on compatible hardware.
 
@@ -390,7 +390,7 @@ balenaEtcher works the same across Windows, macOS, and Linux.
 
 -Etcher is ideal for simple, cross‑platform flashing, but advanced partitioning options (GPT/MBR selection) are not available.
 
-## Installation of Ubuntu
+## 🖥️ Installation of Ubuntu
 
 Step 1 — Boot the Mac Mini From the USB Installer
 
@@ -482,7 +482,9 @@ Step 6 — Boot Ubuntu From the External Drive
 
 Ubuntu should now start normally.
 
-🎉 You Now Have a Fully Installed External Ubuntu System
+## 🎉 Your Finished
+
+`🎉 You Now Have a Fully Installed External Ubuntu System`
 
 Perfect for:
 
