@@ -424,7 +424,15 @@ This prevents Ubuntu from overwriting your internal macOS disk.
 
 Step 3 — Partition the External Hard Drive for Ubuntu
 
+When the Ubuntu installer reaches the partitioning screen:
 
+1.Select your external drive
+
+  -Usually /dev/sdb or /dev/sdc
+
+  -Do NOT select /dev/sda — that’s your internal macOS drive
+  
+2.Create the following partitions:
 
 
 
