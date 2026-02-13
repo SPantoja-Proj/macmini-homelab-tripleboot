@@ -283,6 +283,57 @@ Steps:
 
   -Partition 2: Storage → Format NTFS or exFAT
 
+`Note`
+
+For me what it work when installing linux on the external Hard drive so it reconasizes it to make the hard drive unallocated
+
+Windows: Make an External Drive Unallocated
+
+`Warning`
+
+This erases all data on the external drive. Double‑check you selected the correct disk.
+
+Steps (Disk Management)
+
+1.Connect the external drive to your PC.
+
+2.Press Win + X → choose Disk Management.
+
+3.In the bottom panel, find your external drive (look for the correct size).
+
+4.Right‑click each partition on that drive → choose Delete Volume.
+
+   -Repeat until the entire drive shows black bar labeled Unallocated.
+
+5.That’s it — the drive is now unallocated.
+
+macOS: Make an External Drive Unallocated
+macOS doesn’t show “unallocated” the same way Windows does, but you can erase the drive so it has no partitions except free space.
+
+`Warning`
+
+This also erases all data.
+
+Steps (Disk Utility)
+
+1.Connect the external drive.
+
+2.Open Disk Utility (Applications → Utilities).
+
+3.In the top-left, click View → Show All Devices.
+
+4.Select the physical drive (not the volume under it).
+
+5.Click Erase.
+
+6.Choose:
+
+  -Format: Free Space (if available) or a placeholder format like ExFAT
+
+  -Scheme: GUID Partition Map
+
+7.Click Erase.
+
 ## Ubuntu Boot USB Preparation (Using balenaEtcher)
 
 This section explains how to create a bootable Ubuntu USB installer using balenaEtcher, a simple and cross‑platform flashing tool. The resulting USB can be used to install or repair Ubuntu on compatible hardware.
