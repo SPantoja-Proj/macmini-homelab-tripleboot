@@ -211,15 +211,15 @@ Continue setup until you reach the Windows desktop.
 
 You will be doing three main things:
 
-1.Back up the drive (everything will be erased).
+1. Back up the drive (everything will be erased).
 
-2.Partition the drive into:
+2. Partition the drive into:
 
  -A bootable Linux OS partition
 
  -A shared storage partition
 
- Step 1 — Back Up the Drive
+Step 1 — Back Up the Drive
  
 Before anything else, copy any important files off the external drive. Partitioning will wipe it.
 
@@ -231,21 +231,21 @@ This is the cleanest method for your Mac mini setup.
 
 Steps:
 
-1.Open Disk Utility
+1. Open Disk Utility
 
-2.In the top-left, choose View → Show All Devices
+2. In the top-left, choose View → Show All Devices
 
-3.Select the physical external drive (not the volume under it)
+3. Select the physical external drive (not the volume under it)
 
-4.Click Erase
+4. Click Erase
 
 -Format: GUID Partition Map (GPT)
 
 -File system: ExFAT (temporary; we’ll repartition next)
 
-5.After erase completes, click Partition
+5. After erase completes, click Partition
 
-6.Create two partitions:
+6. Create two partitions:
 
 -Linux OS partition
 
@@ -271,13 +271,13 @@ Linux installers can’t install directly onto APFS or ExFAT. FAT is just a plac
 
 Steps:
 
-1.Open diskmgmt.msc
+1. Open diskmgmt.msc
 
-2.Right‑click the external drive → Delete Volume until it’s unallocated
+2. Right‑click the external drive → Delete Volume until it’s unallocated
 
-3.Right‑click → New Simple Volume
+3. Right‑click → New Simple Volume
 
-4.Create:
+4. Create:
 
   -Partition 1: LinuxOS → Format FAT32
 
@@ -295,17 +295,17 @@ This erases all data on the external drive. Double‑check you selected the corr
 
 Steps (Disk Management)
 
-1.Connect the external drive to your PC.
+1. Connect the external drive to your PC.
 
-2.Press Win + X → choose Disk Management.
+2. Press Win + X → choose Disk Management.
 
-3.In the bottom panel, find your external drive (look for the correct size).
+3. In the bottom panel, find your external drive (look for the correct size).
 
-4.Right‑click each partition on that drive → choose Delete Volume.
+4. Right‑click each partition on that drive → choose Delete Volume.
 
    -Repeat until the entire drive shows black bar labeled Unallocated.
 
-5.That’s it — the drive is now unallocated.
+5. That’s it — the drive is now unallocated.
 
 `macOS: Make an External Drive Unallocated`
 
@@ -317,23 +317,23 @@ This also erases all data.
 
 Steps (Disk Utility)
 
-1.Connect the external drive.
+1. Connect the external drive.
 
-2.Open Disk Utility (Applications → Utilities).
+2. Open Disk Utility (Applications → Utilities).
 
-3.In the top-left, click View → Show All Devices.
+3. In the top-left, click View → Show All Devices.
 
-4.Select the physical drive (not the volume under it).
+4. Select the physical drive (not the volume under it).
 
-5.Click Erase.
+5. Click Erase.
 
-6.Choose:
+6. Choose:
 
   -Format: Free Space (if available) or a placeholder format like ExFAT
 
   -Scheme: GUID Partition Map
 
-7.Click Erase.
+7. Click Erase.
 
 ## Ubuntu Boot USB Preparation (Using balenaEtcher)
 
@@ -394,21 +394,21 @@ balenaEtcher works the same across Windows, macOS, and Linux.
 
 Step 1 — Boot the Mac Mini From the USB Installer
 
-1.Plug in:
+1. Plug in:
 
   -The Ubuntu USB installer
 
   -The external hard drive (target install disk)
 
-2.Restart the Mac mini.
+2. Restart the Mac mini.
 
-3.Hold Option (⌥) or Alt immediately after the chime.
+3. Hold Option (⌥) or Alt immediately after the chime.
 
-4.Select EFI Boot (this is the Ubuntu installer).
+4. Select EFI Boot (this is the Ubuntu installer).
 
 Step 2 — Start Ubuntu Installer
 
-1.When Ubuntu loads, choose:
+1. When Ubuntu loads, choose:
 
   -Try or Install Ubuntu → Install Ubuntu
 
@@ -426,13 +426,40 @@ Step 3 — Partition the External Hard Drive for Ubuntu
 
 When the Ubuntu installer reaches the partitioning screen:
 
-1.Select your external drive
+1. Select your external drive
 
   -Usually /dev/sdb or /dev/sdc
 
   -Do NOT select /dev/sda — that’s your internal macOS drive
   
-2.Create the following partitions:
+2. Create the following partitions:
 
+`Example`
 
+Partition | Size | Type |	Mount Point |
+
+EFI System Partition |	512 MB |	FAT32 |	/boot/efi |
+
+Root | 20–50 GB	| ext4 | / |
+
+Swap	| 4–8 GB |	swap | (none) |
+
+Home (optional)	| Remaining | ext4 |	/home |
+
+Step 4 — Install GRUB to the External Drive
+
+-At the bottom of the partitioning window:
+
+-Device for bootloader installation:  
+ 
+  Example: /dev/sdb
+
+`Do NOT choose:`
+
+- /dev/sdb1
+
+- /dev/sda (your internal macOS disk)
+
+This ensures Ubuntu only boots when the external drive is connected.
+  
 
