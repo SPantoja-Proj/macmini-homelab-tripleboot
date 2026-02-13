@@ -287,7 +287,7 @@ Steps:
 
 For me what it work when installing linux on the external Hard drive so it reconasizes it to make the hard drive unallocated
 
-Windows: Make an External Drive Unallocated
+`Windows: Make an External Drive Unallocated`
 
 `Warning`
 
@@ -307,7 +307,8 @@ Steps (Disk Management)
 
 5.That’s it — the drive is now unallocated.
 
-macOS: Make an External Drive Unallocated
+`macOS: Make an External Drive Unallocated`
+
 macOS doesn’t show “unallocated” the same way Windows does, but you can erase the drive so it has no partitions except free space.
 
 `Warning`
