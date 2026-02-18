@@ -39,7 +39,7 @@ You will learn how to:
 
 ## Table of Contents
 - [Project Overview](#project-overview)
-- [Hardware Used](#hardware-used)
+- [Hardware Used](#️hardware-used)
 - [Software & Tools](#software--tools)
 - [1. macOS Update & Preparation](#1macos-update--preparation)
 - [2. Create Windows 10 Boot USB](#2create-windows-10-boot-usb)
