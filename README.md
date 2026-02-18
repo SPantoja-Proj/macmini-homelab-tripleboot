@@ -41,7 +41,7 @@ You will learn how to:
 - [Project Overview](#project-overview)
 - [Hardware Used](#hardware-used)
 - [Software & Tools](#software--tools)
-- [1.macOS Update & Preparation](#1.macos-update--preparation)
+- [1.macOS Update & Preparation](#1-macos-update--preparation)
 - [2.Create Windows 10 Boot USB](#2-create-windows-10-boot-usb)
 - [3.Install Windows 10 Using Boot Camp Assistant](#3-install-windows-10-using-boot-camp-assistant)
 - [4.Prepare External Hard Drive for Ubuntu](#4-prepare-external-hard-drive-for-ubuntu)
