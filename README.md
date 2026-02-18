@@ -248,7 +248,7 @@ Steps (Disk Utility)
 
 ---
 
-## 🐧5.Create Ubuntu Boot USB (balenaEtcher)
+## 🐧5.Create Ubuntu Boot USB 
 
 Same process as Windows: 
 
