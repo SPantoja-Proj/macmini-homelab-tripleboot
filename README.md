@@ -38,26 +38,22 @@ You will learn how to:
 ---
 
 ## Table of Contents
-
-Table of Contents
-
-1. macOS Update and Preparation
-
-2. Windows 10 Boot USB Creation
-
-3. Windows 10 Installation (Boot Camp)
-
-4. External Drive Preparation
-
-5. Ubuntu Boot USB Creation
-
-6. Ubuntu Installation (External Drive)
-
-7. Booting Between macOS, Windows, and Ubuntu
+- [0. Project Overview](#0-project-overview)
+- [1. Hardware Used](#1-hardware-used)
+- [2. Software & Tools](#2-software--tools)
+- [3. macOS Update & Preparation](#3-macos-update--preparation)
+- [4. Create Windows 10 Boot USB](#4-create-windows-10-boot-usb)
+- [5. Install Windows 10 Using Boot Camp Assistant](#5-install-windows-10-using-boot-camp-assistant)
+- [6. Prepare External Hard Drive for Ubuntu](#6-prepare-external-hard-drive-for-ubuntu)
+- [7. Create Ubuntu Boot USB](#7-create-ubuntu-boot-usb)
+- [8. Install Ubuntu on External Drive](#8-install-ubuntu-on-external-drive)
+- [9. Booting Between macOS Windows and Ubuntu](#9-booting-between-macos-windows-and-ubuntu)
+- [10. Final Result](#10-final-result)
+- [11. About](#11-about)
 
 ---
 
-## 🍎 1. macOS Update & Preparation
+## 🍎1. macOS Update & Preparation
 
 - Check the macOS version and update to the latest supported version for the 2014 Mac Mini.
 - Avoid installing unsupported macOS versions.
