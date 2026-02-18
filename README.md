@@ -42,12 +42,12 @@ You will learn how to:
 - [Hardware Used](#hardware-used)
 - [Software & Tools](#software--tools)
 - [1. macOS Update & Preparation](#1macos-update--preparation)
-- [2.Create Windows 10 Boot USB](#2-create-windows-10-boot-usb)
-- [3.Install Windows 10 Using Boot Camp Assistant](#3-install-windows-10-using-boot-camp-assistant)
-- [4.Prepare External Hard Drive for Ubuntu](#4-prepare-external-hard-drive-for-ubuntu)
-- [5.Create Ubuntu Boot USB](#5-create-ubuntu-boot-usb)
-- [6.Install Ubuntu on External Drive](#6-install-ubuntu-on-external-drive)
-- [7.Booting Between macOS Windows and Ubuntu](#7-booting-between-macos-windows-and-ubuntu)
+- [2. Create Windows 10 Boot USB](#2create-windows-10-boot-usb)
+- [3. Install Windows 10 Using Boot Camp Assistant](#3install-windows-10-using-boot-camp-assistant)
+- [4. Prepare External Hard Drive for Ubuntu](#4prepare-external-hard-drive-for-ubuntu)
+- [5. Create Ubuntu Boot USB](#5create-ubuntu-boot-usb)
+- [6. Install Ubuntu on External Drive](#6install-ubuntu-on-external-drive)
+- [7. Booting Between macOS Windows and Ubuntu](#7booting-between-macos-windows-and-ubuntu)
 - [Final Result](#final-result)
 
 ---
