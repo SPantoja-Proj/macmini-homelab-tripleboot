@@ -62,7 +62,7 @@ You will learn how to:
 
 --- 
 
-## 🪟2.Create Windows 10 Boot USB (balenaEtcher)
+## 🪟2.Create Windows 10 Boot USB
 
 This section explains how to create a bootable Windows 10 USB installer using balenaEtcher, a simple and cross‑platform flashing tool. The resulting USB can be used to install or repair Windows 10 on compatible hardware.
 
